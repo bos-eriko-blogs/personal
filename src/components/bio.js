@@ -30,7 +30,7 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong>. He makes stuff for the web every now and then.
+              Written by <strong>{author}</strong>. He likes doing random stuff every now and then.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 You should follow him on Twitter
