@@ -5,7 +5,7 @@ module.exports = {
     description: `My random thoughts written in words.`,
     siteUrl: `https://boseriko.com/`,
     social: {
-      twitter: `boseriko`,
+      twitter: `BosEriko`,
     },
   },
   plugins: [
