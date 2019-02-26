@@ -7,6 +7,14 @@ import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
 class BlogPostTemplate extends React.Component {
+  componentDidMount() {
+    (function () {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://boseriko.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  }
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
@@ -36,6 +44,7 @@ class BlogPostTemplate extends React.Component {
           }}
         />
         <Bio />
+        <div id="disqus_thread"></div>
 
         <ul
           style={{
