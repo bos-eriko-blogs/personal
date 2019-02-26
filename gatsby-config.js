@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `Bos Eriko's Personal Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    author: `Bos Eriko`,
+    description: `My random thoughts written in words.`,
+    siteUrl: `https://boseriko.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `boseriko`,
     },
   },
   plugins: [
@@ -63,7 +63,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/profile-pic.jpg`,
       },
     },
     `gatsby-plugin-offline`,
