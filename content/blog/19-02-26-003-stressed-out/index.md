@@ -1,6 +1,6 @@
 ---
 title: Stressed Out
-date: "2019-02-26T00:00:00.002Z"
+date: "2019-02-26T00:00:00.003Z"
 description: I'm so confused.
 ---
 

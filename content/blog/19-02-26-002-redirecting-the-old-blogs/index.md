@@ -1,6 +1,6 @@
 ---
 title: Redirecting the old blogs
-date: "2019-02-26T00:00:00.001Z"
+date: "2019-02-26T00:00:00.002Z"
 description: I won't delete the links. I'll make them redirect to the new blogs!
 ---
 
